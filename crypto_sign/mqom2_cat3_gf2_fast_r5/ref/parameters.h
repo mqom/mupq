@@ -13,10 +13,8 @@
 /* Options activated for memory optimization */
 #define MEMORY_EFFICIENT_BLC
 #define MEMORY_EFFICIENT_PIOP
+#define FIELDS_BITSLICE_PUBLIC_JUMP
 #define MEMORY_EFFICIENT_KEYGEN
-#define USE_ENC_X8
-#define USE_XOF_X4
-
 /* Specifically target MUPQ */
 #define MQOM2_FOR_MUPQ
 
